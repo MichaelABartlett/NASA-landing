@@ -1,5 +1,112 @@
-header {
-    height: 75%;
-    width: 100%;
-    background-image: url(nasa-rTZW4f02zY8-unsplash.jpg);
+.main-container {
+    /*display: 100%;*/
+    margin: 100PX;
+    width: 850 ;
+    height: 774;
 }
+
+section {
+    background-image: url("./nasa-Q1p7bh3SHj8-unsplash\ \(1\).jpg");
+    background-size: cover;
+    width: 850px;
+    height: 450px;
+    display: flex;
+    /*border: 5px solid rgb(221, 15, 15);*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nasa-name {
+    /*border: 5px solid red;*/
+    color: white;
+    font-size: 75px;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(231, 227, 227);
+    margin-top: 10px;
+}
+
+.left-box {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 324px;
+    margin-left: 20px;
+    margin-right: 10px;
+    /*border: 1px solid black;*/
+    
+}
+.middle-box {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 324px;
+    margin: 0 10px 0 10px;
+    /*border: 1px solid black;*/
+    
+}
+.right-box {
+    width: 270px;
+    height: 324px;
+    margin-left: 10;
+    /*border: 1px solid black;*/
+    
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 15px;
+    font-weight: 50;
+    line-height: 1.7 ;
+    
+}
+
+.right-box-inside {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.send-box {
+    background-color: gray;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+.top-blank {
+    /*border: 1px solid slateblue;*/
+    height: 25px;
+    width: auto;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.bottom-blank {
+    /*border: 1px solid slateblue;*/
+    height: 75px;
+    width: auto;
+    background-color: white;
+    margin-right: 20px;
+}
+/*
+.even-columns {
+    display: flex;
+
+}
+
+.even-columns > * {
+    flex-basis: 100%;
+}
+*/
